@@ -17,7 +17,7 @@ export default function Home() {
         <Pagina titulo="carros" />
         <Container>
 
-          <Row md={3}>
+          <Row md={4}>
               {carros.map(item=>(
                 <Col className='mb-4'>
                      <Card>
